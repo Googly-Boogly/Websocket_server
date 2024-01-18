@@ -1,0 +1,7 @@
+venv/
+*.log
+__pycache__/
+secrets.py
+.idea/
+sql_master_key.txt
+.env

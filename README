@@ -1,0 +1,13 @@
+This is a simple websocket server that will relay any messages it receives to all connected clients.
+It is intended to be used with websockets from python, but it can work with any language.
+
+TO DO:
+add better security practices to the whitelisted users
+
+To run:
+install Docker
+navigate to base dir of the project
+run
+docker build -t websocket-server .
+than run
+docker run -p 8765:8765 websocket-server

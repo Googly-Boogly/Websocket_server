@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  websocket-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      PORT: 7890
+      IP: localhost
+    ports:
+      - "7890:7890"
+
